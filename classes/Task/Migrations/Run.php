@@ -65,8 +65,10 @@ class Task_Migrations_Run extends Minion_Task {
 	 *
 	 * @param array $options Configuration to use
 	 */
-	protected function _execute(array $options)
+	protected function _execute()
 	{
+        $options = $this->_options;
+
 		$groups  = $options['group'];
 		$target  = $options['to'];
 
