@@ -1,20 +1,22 @@
 {
-	"name":        "kohana-minion/tasks-migrations",
+	"name":        "zer0pants/kohana-migrations",
 	"description": "Migration tasks for the kohana-minion cli framework",
 	"homepage":    "https://github.com/kohana-minion/tasks-migrations",
 	"license":     "BSD-3-Clause",
 	"keywords":    ["kohana", "framework", "database", "migrations", "tasks"],
 	"authors": [
 		{
-			"name":     "Lorenzo Pisani",
-			"email":    "zeelot3k@gmail.com",
+			"name":     "Michael Roberts",
+			"email":    "michael@verbate.co",
 			"role":     "developer"
 		},
+		
 		{
-			"name":     "Matt Button",
-			"email":    "matthew@sigswitch.com",
+			"name":     "Mitch",
+			"email":    "mitch@verbate.co",
 			"role":     "developer"
 		},
+		
 		{
 			"name":     "Contributors",
 			"homepage": "https://github.com/kohana-minion/tasks-migrations/graphs/contributors",
@@ -26,8 +28,8 @@
 		"source":   "https://github.com/kohana-minion/tasks-migrations"
 	},
 	"require": {
-		"kohana/core":         ">=3.3",
-		"kohana/minion":       ">=3.3",
+		"kohana/core":         ">=3.4",
+		"kohana/minion":       ">=3.4",
 		"php":                 ">=5.2.4"
 	},
 	"extra": {
