@@ -44,11 +44,11 @@ class Task_Migrations_New extends Minion_Task {
 	 *
 	 * @param array $options Configuration
 	 */
-	protected function _execute(array $options)
+	protected function _execute()
 	{
 		try
 		{
-			$file = $this->generate($options);
+			$file = $this->generate($this->_options);
 			Minion_CLI::write('Migration generated: '.$file);
 		}
 		catch (ErrorException $e)
