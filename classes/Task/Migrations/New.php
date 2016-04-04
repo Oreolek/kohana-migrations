@@ -41,8 +41,6 @@ class Task_Migrations_New extends Minion_Task {
 
 	/**
 	 * Execute the task
-	 *
-	 * @param array $options Configuration
 	 */
 	protected function _execute()
 	{

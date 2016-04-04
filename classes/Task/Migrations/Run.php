@@ -62,8 +62,6 @@ class Task_Migrations_Run extends Minion_Task {
 
 	/**
 	 * Migrates the database to the version specified
-	 *
-	 * @param array $options Configuration to use
 	 */
 	protected function _execute()
 	{
