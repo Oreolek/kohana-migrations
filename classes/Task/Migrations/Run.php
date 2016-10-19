@@ -122,7 +122,7 @@ class Task_Migrations_Run extends Minion_Task {
 			->set('executed_migrations', $manager->get_executed_migrations())
 			->set('group_versions', $model->get_group_statuses());
 
-		return $view;
+		echo $view;
 	}
 
 	/**
