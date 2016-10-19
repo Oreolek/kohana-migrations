@@ -14,7 +14,7 @@ class Task_Migrations_Status extends Minion_Task {
 	 *
 	 * @param array $options Config for the task
 	 */
-	protected function _execute(array $options)
+  protected function _execute()
 	{
 		$model = new Model_Minion_Migration(Database::instance());
 		$view  = new View('minion/task/migrations/status');
