@@ -3,7 +3,7 @@
 /**
  * A faux database connection for doing dry run migrations
  */
-class Minion_Migration_Database extends Database_MySQL {
+class Minion_Migration_Database extends Database_MySQLi {
 
 	/**
 	 * Creates a disposable instance of the faux connection
