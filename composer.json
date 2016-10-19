@@ -1,7 +1,7 @@
 {
 	"name":        "oreolek/kohana-migrations",
-	"description": "Migration tasks for the kohana-minion cli framework",
-	"homepage":    "https://github.com/kohana-minion/tasks-migrations",
+	"description": "Migration tasks for the kohana-minion cli framework, 3.4 branch",
+	"homepage":    "https://github.com/Oreolek/kohana-migrations",
 	"license":     "BSD-3-Clause",
 	"keywords":    ["kohana", "framework", "database", "migrations", "tasks"],
 	"authors": [
@@ -10,13 +10,16 @@
 			"email":    "michael@verbate.co",
 			"role":     "developer"
 		},
-		
 		{
 			"name":     "Mitch",
 			"email":    "mitch@verbate.co",
 			"role":     "developer"
 		},
-		
+		{
+			"name":     "Alexander Yakovlev",
+			"email":    "keloero@oreolek.ru",
+			"role":     "developer"
+		},
 		{
 			"name":     "Contributors",
 			"homepage": "https://github.com/kohana-minion/tasks-migrations/graphs/contributors",
@@ -24,17 +27,12 @@
 		}
 	],
 	"support": {
-		"issues":   "https://github.com/kohana-minion/tasks-migrations/issues",
-		"source":   "https://github.com/kohana-minion/tasks-migrations"
+		"issues":   "https://github.com/Oreolek/kohana-migrations/issues",
+		"source":   "https://github.com/Oreolek/kohana-migrations"
 	},
 	"require": {
 		"kohana/core":         ">=3.4",
 		"kohana/minion":       ">=3.4",
 		"php":                 ">=5.2.4"
-	},
-	"extra": {
-		"branch-alias": {
-			"dev-3.3/develop": "3.3.x-dev"
-		}
 	}
 }
