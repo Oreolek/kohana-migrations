@@ -1,5 +1,5 @@
 {
-	"name":        "zer0pants/kohana-migrations",
+	"name":        "oreolek/kohana-migrations",
 	"description": "Migration tasks for the kohana-minion cli framework",
 	"homepage":    "https://github.com/kohana-minion/tasks-migrations",
 	"license":     "BSD-3-Clause",
